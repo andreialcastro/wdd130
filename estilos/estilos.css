@@ -1,3 +1,10 @@
+/* Resetar CSS do meu projeto*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --cor-principal: darkblue;
     --cor-texto: #333;
@@ -27,17 +34,20 @@ h1 {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0 0 0 /0.2);
-    padding: 1rem;
-    background-color: #eee;
     color: var(--cor-texto) text-align: center;
+    position: relative;
 
 }
 
 aside img {
     width: 200px;
     height: auto;
+    margin-top: 30px;
+}
+
+aside h2 {
+    position: absolute;
+
 }
 
 main img {
@@ -46,6 +56,9 @@ main img {
     border: 2px solid var(--cor-principal);
     padding: 5px;
     box-shadow: 2px 2px 5px #888;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -56,4 +69,17 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/*Seletores de Classe*/
+
+.caixa {
+    border: 1px solid rgba(0 0 0 /0.2);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #eee;
+}
+
+.indentacao {
+    padding-left: 2rem;
 }
