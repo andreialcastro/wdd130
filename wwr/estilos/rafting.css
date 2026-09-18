@@ -61,13 +61,12 @@ article {
 
 .hero {
     position: relative;
-    background-image: url("../imagens/hero-image.jpg");
     background-size: cover;
     background-position: center;
     min-height: 500px;
 }
 
-.hero-background {
+#hero-background {
     display: block;
     width: 100%;
     height: auto;
