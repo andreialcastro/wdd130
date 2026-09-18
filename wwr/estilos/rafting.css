@@ -1,7 +1,7 @@
 :root {
     --cor-primaria: #136063;
-    --cor-secundaria: #c7712b;
-    --cor-destaque1: #264653;
+    --cor-secundaria: #311804;
+    --cor-destaque1: #435326;
     --cor-destaque2: #e9c46a;
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
@@ -65,6 +65,12 @@ article {
     background-size: cover;
     background-position: center;
     min-height: 500px;
+}
+
+.hero-background {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero article {
