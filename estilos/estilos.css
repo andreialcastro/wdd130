@@ -6,7 +6,7 @@
 }
 
 :root {
-    --cor-principal: darkblue;
+    --cor-principal: rgb(89, 80, 172);
     --cor-texto: #333;
     --cor-branca: white;
     --largura-main: 840px;
@@ -14,27 +14,37 @@
 
 nav {
     background-color: var(--cor-principal);
-    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav a {
     color: var(--cor-branca);
     display: block;
-    padding: 20px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 main {
-    max-width: var(--largura-main);
-
+    /*max-width: var(--largura-main);*/
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 h1 {
-    color: var(--cor-principal)
+    color: var(--cor-principal);
+    border-bottom: 1px solid var(--cor-principal);
 }
 
 aside {
     width: 20rem;
-    color: var(--cor-texto) text-align: center;
+    color: var(--cor-texto);
+    text-align: center;
     position: relative;
 
 }
@@ -82,4 +92,20 @@ footer {
 
 .indentacao {
     padding-left: 2rem;
+}
+
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid aside {
+    grid-row: 1;
 }
