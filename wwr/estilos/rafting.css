@@ -2,14 +2,14 @@
     --cor-primaria: #4b57b8;
     --cor-secundaria: #23686b;
     --cor-destaque1: #435326;
-    --cor-destaque2: #e9c46a;
+    --cor-destaque2: #fff;
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
 }
 
 header {
     background-color: var(--cor-primaria);
-    color: #fff;
+    color: var(--cor-destaque2);
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
@@ -74,7 +74,7 @@ nav {
 nav a {
     text-decoration: none;
     padding: 1rem;
-    color: #fff;
+    color: var(--cor-destaque2);
 }
 
 .hero {
@@ -157,6 +157,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--cor-destaque1);
 }
 
 footer a {
