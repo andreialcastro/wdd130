@@ -1,6 +1,6 @@
 :root {
-    --cor-primaria: #136063;
-    --cor-secundaria: #311804;
+    --cor-primaria: #6c7ce9;
+    --cor-secundaria: #338c8f;
     --cor-destaque1: #435326;
     --cor-destaque2: #e9c46a;
     --fonte-titulo: "Times New Roman", "Georgia", serif;
@@ -10,6 +10,15 @@
 header {
     background-color: var(--cor-primaria);
     color: var(--cor-destaque2);
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    max-width: 840px;
+    margin: auto;
+}
+
+header img {
+    width: 120px;
 }
 
 * {
@@ -55,6 +64,19 @@ article {
     padding: 8px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1rem;
+    color: #fff;
+}
+
 .redes-sociais a {
     text-decoration: none;
 }
@@ -96,6 +118,12 @@ h1 {
     width: 125px;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer a {
     text-decoration: none;
 }
@@ -111,4 +139,45 @@ footer a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.historia {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.historia img {
+    width: 100%;
+}
+
+.aventuras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.aventuras h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.aventuras figure {
+    flex: 1;
+    text-align: center;
+}
+
+.aventuras img {
+    width: 100%;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.redes-sociais img {
+    width: 30px;
 }
