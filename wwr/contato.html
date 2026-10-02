@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Nossa empresa organiza passeios de rafting pelo Rio Potengi, com guias experientes e segurança para uma aventura inesquecível.">
+    <meta name="author" content="Andreia Leal de Castro">
+    <title>Sobre nós | Potengi Rafting</title>
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo-potengi-rafting.jpg" alt="Potengi Rafting">
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="passeios.html">Passeios</a>
+            <a href="contato.html">Fale Conosco</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Fale Conosco</h1>
+        <section class="contato-info">
+            <div>
+                <h2>Informações da Empresa</h2>
+                <p><strong>Endereço:</strong>Avenida Engenheiro Roberto Freire,1234, Natal-RN</p>
+                <p><strong>Telefone</strong>(84)00000-0000</p>
+                <p><strong>E-mail:</strong>contato@potengirafting.com.br</p>
+            </div>
+
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156797.60736097756!2d-35.27645555076882!3d-5.776305472691776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3aaac26460531%3A0x5d8b404cf00fed69!2sNatal%2C%20RN!5e1!3m2!1spt-BR!2sbr!4v1790951192942!5m2!1spt-BR!2sbr"
+                  width="600" height="450" " allowfullscreen="" loading=" lazy"
+                  referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+
+            </div>
+        </section>
+
+
+        <section class="equipe">
+            <h2>Nossa Equipe</h2>
+
+            <figure>
+                <img src="imagens/pedro.jpg" alt="Pedro Leal, guia de rafting">
+                <figcaption>Pedro Leal, Guia de Rafting</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/analu.jpg" alt="Ana Lu, instrutora de rafting">
+                <figcaption>Ana Lu, Instrutora de Rafting</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/murilo.jpg" alt="Murilo Castro, gerente">
+                <figcaption>Murilo Castro, Gerente</figcaption>
+            </figure>
+        </section>
+
+        <section class="formulario">
+            <h2>Entre em Contato</h2>
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Finalidade da mensagem:</p>
+
+                <label>
+                    <input type="radio" name="finalidade" value="consulta" required>
+                    Consulta Geral
+                </label>
+
+                <label>
+                    <input type="radio" name="finalidade" value="sugestão" required>
+                    Sugestão de Site
+                </label>
+
+                <label>
+                    <input for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <label><input type="checkbox" name="newsletter">
+                    Que receber a newsletter mensal
+                </label>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Potengi Rafting, Andreia Leal de Castro</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="imagens/facebook.webp" alt="Ícone do Facebook">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="imagens/linkedin.webp" alt="Ícone do LinkedIn">
+            </a>
+            <a href="https://instagram.com">
+                <img src="imagens/instagram.webp" alt="Ícone do Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
