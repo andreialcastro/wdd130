@@ -7,7 +7,7 @@
     <meta name="description"
       content="Nossa empresa organiza passeios de rafting pelo Rio Potengi, com guias experientes e segurança para uma aventura inesquecível.">
     <meta name="author" content="Andreia Leal de Castro">
-    <title>Sobre nós | Potengi Rafting</title>
+    <title>Fale Conosco| Potengi Rafting</title>
     <link rel="stylesheet" href="estilos/rafting.css">
 </head>
 
@@ -34,7 +34,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156797.60736097756!2d-35.27645555076882!3d-5.776305472691776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3aaac26460531%3A0x5d8b404cf00fed69!2sNatal%2C%20RN!5e1!3m2!1spt-BR!2sbr!4v1790951192942!5m2!1spt-BR!2sbr"
-                  width="600" height="450" " allowfullscreen="" loading=" lazy"
+                  width="600" height="450" allowfullscreen loading=" lazy"
                   referrerpolicy="strict-origin-when-cross-origin">
                 </iframe>
 
@@ -73,23 +73,20 @@
 
                 <p>Finalidade da mensagem:</p>
 
-                <label>
-                    <input type="radio" name="finalidade" value="consulta" required>
-                    Consulta Geral
-                </label>
+                <input type="radio" name="finalidade" value="consulta" required>
+                <label for="consulta">Consulta Geral</label>
 
-                <label>
-                    <input type="radio" name="finalidade" value="sugestão" required>
-                    Sugestão de Site
-                </label>
+                <input type="radio" name="finalidade" value="sugestão" required>
+                <label for="sugestao">Sugestão de Site</label>
 
-                <label>
-                    <input for="mensagem">Mensagem:</label>
+                <input type="radio" id="passeios" name="finalidade" value="passeios">
+                <label for="passeios">Informações sobre passeios</label>
+
+                <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" required></textarea>
 
-                <label><input type="checkbox" name="newsletter">
-                    Que receber a newsletter mensal
-                </label>
+                <input type="checkbox" name="newsletter">
+                <label for="newsletter">Quero receber a newsletter mensal</label>
 
                 <button type="submit">Enviar Mensagem</button>
             </form>
@@ -97,10 +94,9 @@
 
     </main>
 
-
     <footer>
         <p>© 2026 Potengi Rafting, Andreia Leal de Castro</p>
-        <nav class="socialmedia">
+        <nav class="redes-sociais">
             <a href="https://facebook.com">
                 <img src="imagens/facebook.webp" alt="Ícone do Facebook">
             </a>
