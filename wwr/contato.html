@@ -34,7 +34,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156797.60736097756!2d-35.27645555076882!3d-5.776305472691776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3aaac26460531%3A0x5d8b404cf00fed69!2sNatal%2C%20RN!5e1!3m2!1spt-BR!2sbr!4v1790951192942!5m2!1spt-BR!2sbr"
-                  width="600" height="450" allowfullscreen loading=" lazy"
+                  width="600" height="450" allowfullscreen loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin">
                 </iframe>
 
@@ -73,10 +73,10 @@
 
                 <p>Finalidade da mensagem:</p>
 
-                <input type="radio" name="finalidade" value="consulta" required>
+                <input type="radio" id="consulta" name="finalidade" value="consulta" required>
                 <label for="consulta">Consulta Geral</label>
 
-                <input type="radio" name="finalidade" value="sugestão" required>
+                <input type="radio" id="sugestao" name="finalidade" value="sugestao" required>
                 <label for="sugestao">Sugestão de Site</label>
 
                 <input type="radio" id="passeios" name="finalidade" value="passeios">
@@ -85,7 +85,7 @@
                 <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" required></textarea>
 
-                <input type="checkbox" name="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter">
                 <label for="newsletter">Quero receber a newsletter mensal</label>
 
                 <button type="submit">Enviar Mensagem</button>
