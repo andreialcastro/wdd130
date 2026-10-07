@@ -73,20 +73,27 @@
 
                 <p>Finalidade da mensagem:</p>
 
-                <input type="radio" id="consulta" name="finalidade" value="consulta" required>
-                <label for="consulta">Consulta Geral</label>
+                <div class="opcao-campo">
+                    <input type="radio" id="consulta" name="finalidade" value="consulta" required>
+                    <label for="consulta">Consulta Geral</label>
+                </div>
 
-                <input type="radio" id="sugestao" name="finalidade" value="sugestao" required>
-                <label for="sugestao">Sugestão de Site</label>
-
-                <input type="radio" id="passeios" name="finalidade" value="passeios">
-                <label for="passeios">Informações sobre passeios</label>
+                <div class="opcao-campo">
+                    <input type="radio" id="sugestao" name="finalidade" value="sugestao" required>
+                    <label for="sugestao">Sugestão de Site</label>
+                </div>
+                <div class="opcao-campo">
+                    <input type="radio" id="passeios" name="finalidade" value="passeios">
+                    <label for="passeios">Informações sobre passeios</label>
+                </div>
 
                 <label for="mensagem">Mensagem:</label>
                 <textarea id="mensagem" name="mensagem" required></textarea>
 
-                <input type="checkbox" id="newsletter" name="newsletter">
-                <label for="newsletter">Quero receber a newsletter mensal</label>
+                <div class="opcao-campo">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Quero receber a newsletter mensal</label>
+                </div>
 
                 <button type="submit">Enviar Mensagem</button>
             </form>
@@ -96,7 +103,7 @@
 
     <footer>
         <p>© 2026 Potengi Rafting, Andreia Leal de Castro</p>
-        <nav class="redes-sociais">
+        <nav class="socialmedia">
             <a href="https://facebook.com">
                 <img src="imagens/facebook.webp" alt="Ícone do Facebook">
             </a>
